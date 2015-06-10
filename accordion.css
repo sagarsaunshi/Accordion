@@ -1,0 +1,35 @@
+#accordion {
+    list-style: none;
+    padding: 0 0 0 0;
+    width: 170px;
+}
+
+#accordion li{
+	display: block;
+	background-color: #ccc;
+	font-weight: bold;
+	margin: 1px;
+	cursor: pointer;
+	padding: 5px 5px 5px 7px;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	border-radius: 6px;
+}
+
+#accordion ul {
+	display: none;
+	padding: 0 0 0 0;
+}
+
+#accordion ul li{
+	font-weight: normal;
+	background-color: #fff;
+	padding: 0 0 0 7px;
+}
+
+#accordion a {
+	text-decoration: none;
+}
+#accordion a:hover {
+	text-decoration: underline;
+}
